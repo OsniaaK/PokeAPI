@@ -63,13 +63,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 2rem;
     width: 100%;
     & > input {
-      padding: 0.5rem 0.75rem;
+      padding: 0.5rem .75rem;
       text-align: center;
       outline: none;
+      width: 225px;
       border-radius: 5px;
       color: black;
       font-family: "Cousine";
